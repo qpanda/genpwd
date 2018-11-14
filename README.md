@@ -2,6 +2,19 @@ genpwd
 ================
 A small Go script to generate passwords that confirm to password complexity rules.
 
+## Installation
+Pre-built binaries for **windows/amd64** and **darwin/amd64** can be downloaded from the [release page](https://github.com/qpanda/genpwd/releases)
+
+To run **genpwd** or build binaries using Go download the latest source package from the [release page](https://github.com/qpanda/genpwd/releases)
+  
+    $ wget https://github.com/qpanda/genpwd/archive/genpwd-x.y.z.zip
+    $ unzip genpwd-x.y.z.zip
+	$ cd genpwd-x.y.z/genpwd
+	$ go run main.go
+    $ go run build
+
+**Note:** **genpwd** has been developed and tested with Go 1.11.2.
+
 ## Using genpwd
 Run ```genpwd``` to get usage information. All parameters have default values.
 
